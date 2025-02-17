@@ -1,0 +1,18 @@
+echo "
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+*.xcassets
+
+# Swift Packages
+.swiftpm/
+Packages/
+
+# Build e output
+build/
+.build/
+" >> .gitignore
